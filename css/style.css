@@ -94,7 +94,7 @@ header {
 .shadow {
   position: absolute;
   top: 0;
-  right: 20px;
+  right: 0px;
   bottom: 0;
   left: 0;
   background: rgba(252, 195, 2, 0.6);
@@ -227,14 +227,6 @@ header {
   z-index: 1;
 }
 
-.shadow {
-  position: absolute;
-  top: 0;
-  right: 20px;
-  bottom: 0;
-  left: 0;
-  background: rgba(252, 195, 2, 0.6);
-}
 .service-3 .col-md-5 .box2 {
   height: 200px;
   width: 200px;
@@ -272,6 +264,7 @@ header {
 .buy-part button {
   color: white !important;
   font-size: 20px !important;
+  margin-bottom: 50px !important;
 }
 
 /* service-5 style */
@@ -303,7 +296,9 @@ header {
   font-size: 16px !important;
   margin: -5px 0px 20px 0px !important;
 }
-
+.icon ul {
+  margin-bottom: 4rem !important;
+}
 .icon ul li {
   list-style: none;
   display: inline-block;
